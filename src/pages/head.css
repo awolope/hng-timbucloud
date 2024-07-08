@@ -1,0 +1,120 @@
+body {
+  background-color: #595852;
+}
+.head {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.55) 50%, #000000 100%),
+    url("../background.png");
+  background-size: cover;
+  background-position: center middle;
+  height: 800px;
+}
+.mavbar {
+  color: rgb(31, 32, 22);
+  border-radius: 10px;
+  width: 140px;
+  margin-top: 15px;
+  border: 1px solid rgb(31, 32, 22);
+  text-align: center;
+  height: 40px;
+}
+.mavbar a {
+  color: rgb(31, 32, 22);
+  text-decoration: none;
+  margin: 10px;
+}
+.logo {
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: left;
+  line-height: 32.74px;
+  text-align: left;
+  margin-top: 10px;
+  color: rgb(31, 32, 22);
+}
+.minilogo {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: left;
+  line-height: 32.74px;
+  color: rgb(31, 32, 22);
+  margin-top: 5px;
+}
+.logoiv {
+  display: flex;
+  margin: 10px;
+}
+.navdiv {
+  display: flex;
+  justify-content: space-between;
+}
+.h1head {
+  margin-top: 290px;
+  opacity: 0px;
+  color: white;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 81.84px;
+  letter-spacing: 0.002em;
+}
+.h2head {
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.74px;
+  letter-spacing: 0.001em;
+  text-align: center;
+  color: white;
+}
+.shopdiv {
+  display: flex;
+  justify-content: center;
+}
+.shoplink {
+  border: 1px solid rgba(34, 38, 1, 1);
+  background-color: rgba(34, 38, 1, 1);
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.arrowup {
+  border: 1px solid rgba(34, 38, 1, 1);
+  background-color: rgba(34, 38, 1, 1);
+  color: white;
+  padding: 25px;
+  margin-left: 4px;
+  border-radius: 10px;
+}
+@media (max-width: 900px) {
+  .minilogo {
+    font-size: 9px;
+  }
+  .logo {
+    font-size: 13px;
+    margin-left: -15px;
+  }
+  .logoiv {
+    margin-top: 0px;
+  }
+  .mavbar {
+    width: 80px;
+    height: 30px;
+    margin-top: 15px;
+  }
+  .navdiv a {
+    font-size: 10px;
+    margin: 0px;
+  }
+  .h1head {
+    font-size: 25px;
+  }
+  .h2head {
+    font-size: 12px;
+    margin-top: -30px;
+    line-height: 20px;
+  }
+}
