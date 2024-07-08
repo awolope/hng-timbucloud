@@ -1,0 +1,33 @@
+.maindiv {
+  background-color: #f9f6f4;
+}
+.mainh1 {
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 27.28px;
+  text-align: center;
+  color: rgba(34, 38, 1, 1);
+}
+
+.focus {
+  color: red;
+}
+.mindiv1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.minh2 {
+  font-family: Nunito Sans;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 54.56px;
+  letter-spacing: 0.001em;
+  text-align: left;
+}
+@media (max-width: 900px) {
+  .maindiv {
+    font-size: 10px;
+  }
+}
