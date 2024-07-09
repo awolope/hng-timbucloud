@@ -39,6 +39,6 @@
     width: 5px;
   }
   .cart {
-    margin-left: 8px;
+    display: none;
   }
 }

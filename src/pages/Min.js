@@ -22,7 +22,23 @@ export default function Main(params) {
           </p>
         </div>
         <div className="imagemindiv1 sm">
-          <img src="./woman.png" alt="" className="img-fluid sm"></img>
+          <img src="./woman.png" alt="" className="img sm"></img>
+        </div>
+      </div>
+      <div className="mindiv2">
+        <div className="imagediv2">
+          <img src="./man.png" alt="" className="img2"></img>
+        </div>
+        <div className="imagediv3">
+          <h3 className="minh2">
+            <span className="focus"> Standing Out </span>
+            In Style
+          </h3>
+          <p className="minp1">
+            Make a statement with our bold and stylish collection. Designed for
+            those who dare to be different, our pieces blend contemporary trends
+            with unique designs.
+          </p>
         </div>
       </div>
     </div>
