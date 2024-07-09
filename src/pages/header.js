@@ -6,23 +6,11 @@ import { FaArrowUp } from "react-icons/fa";
 import { FaClock } from "react-icons/fa";
 import { FaShoppingBag } from "react-icons/fa";
 import { FaInfinity } from "react-icons/fa";
-import SearchBar from "./Serach";
+import Navbar from "./navbar";
 export default function Head(params) {
   return (
     <div className="head container sm">
-      <div className="navdiv sm">
-        <div className="logoiv sm">
-          <p className="logo sm"> TimberClouds</p>
-          <p className="minilogo sm">TM</p>
-        </div>
-        <div className="mavbar sm">
-          <a href="/"> Home</a>
-          <a href="/"> Shop</a>
-        </div>
-        <div className="search sm">
-          <SearchBar />
-        </div>
-      </div>
+      <Navbar />
       <div>
         <h1 className="h1head sm">Eternal Classics, Enduring Style</h1>
         <h2 className="h2head sm">

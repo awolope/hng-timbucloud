@@ -30,16 +30,33 @@
 }
 .btndiv {
   display: flex;
+  margin-top: 10px;
 }
-.simple-search-btn:hover {
+.search-btn:hover {
   background-color: #5d554e;
 }
 
-.simple-search-btn:focus {
+.search-btn:focus {
   outline: none;
 }
-
-.simple-search-btn svg {
-  vertical-align: middle;
-  font-size: 1rem;
+@media (max-width: 900px) {
+  .search-input {
+    width: 190px;
+    height: 20px;
+    border-radius: 2px;
+    font-size: 10px;
+  }
+  .search-btn {
+    padding: 5px;
+    font-size: 10px;
+    height: 20px;
+  }
+  .arrow {
+    font-size: 10px;
+    height: 20px;
+    padding: 5px;
+  }
+  .search-form {
+    margin-left: -18px;
+  }
 }

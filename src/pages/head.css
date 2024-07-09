@@ -5,47 +5,6 @@
   background-position: center middle;
   height: 800px;
 }
-.mavbar {
-  color: rgb(31, 32, 22);
-  border-radius: 10px;
-  width: 140px;
-  margin-top: 15px;
-  border: 1px solid rgb(31, 32, 22);
-  text-align: center;
-  height: 40px;
-}
-.mavbar a {
-  color: rgb(31, 32, 22);
-  text-decoration: none;
-  margin: 10px;
-}
-.logo {
-  font-family: Nunito Sans;
-  font-size: 24px;
-  font-weight: 900;
-  text-align: left;
-  line-height: 32.74px;
-  text-align: left;
-  margin-top: 10px;
-  color: rgb(31, 32, 22);
-}
-.minilogo {
-  font-family: Nunito Sans;
-  font-size: 16px;
-  font-weight: 900;
-  text-align: left;
-  line-height: 32.74px;
-  color: rgb(31, 32, 22);
-  margin-top: 5px;
-}
-.logoiv {
-  display: flex;
-  margin: 10px;
-}
-.navdiv {
-  display: flex;
-  justify-content: space-between;
-}
 .h1head {
   margin-top: 290px;
   opacity: 0px;
@@ -97,25 +56,6 @@
   text-align: center;
 }
 @media (max-width: 900px) {
-  .minilogo {
-    font-size: 9px;
-  }
-  .logo {
-    font-size: 13px;
-    margin-left: -15px;
-  }
-  .logoiv {
-    margin-top: 0px;
-  }
-  .mavbar {
-    width: 80px;
-    height: 30px;
-    margin-top: 15px;
-  }
-  .navdiv a {
-    font-size: 10px;
-    margin: 0px;
-  }
   .h1head {
     font-size: 23px;
   }

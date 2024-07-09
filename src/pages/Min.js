@@ -6,6 +6,7 @@ import "../woman.png";
 import "../shirt.png";
 import "../suit.png";
 import "../clothes.png";
+import Custom from "./custom";
 export default function Main(params) {
   return (
     <div className="maindiv container-fluid sm">
@@ -87,6 +88,9 @@ export default function Main(params) {
           exclusive discounts on all items
         </p>
         <Search />
+      </div>
+      <div className="mainfooter2">
+        <Custom />
       </div>
     </div>
   );

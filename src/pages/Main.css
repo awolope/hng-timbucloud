@@ -128,11 +128,27 @@
   margin-top: -20px;
   margin-left: 8px;
 }
+.mainfooter2 {
+  display: flex;
+  margin-left: 850px;
+  justify-content: space-between;
+}
+
 @media (max-width: 900px) {
   .minp1 {
     font-size: 13px;
     line-height: 14px;
     width: 180px;
+  }
+  .mainfooter2 {
+    margin-left: 100px;
+  }
+
+  .mainfp {
+    width: 200px;
+    line-height: 15px;
+    margin-left: -2px;
+    font-size: 8px;
   }
   .imagediv3 {
     margin-top: 60px;
@@ -150,6 +166,7 @@
     height: 160px;
     margin: -20px;
     margin-top: 20px;
+    margin-right: 10px;
   }
   .img {
     width: 160px;
