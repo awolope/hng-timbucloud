@@ -1,13 +1,17 @@
 .mavbar {
   color: rgb(31, 32, 22);
   border-radius: 10px;
-  width: 140px;
+  width: 250px;
+  margin-left: 170px;
   margin-top: 15px;
   border: 1px solid rgb(31, 32, 22);
   text-align: center;
   height: 40px;
 }
-.mavbarlink {
+.search {
+  display: flex;
+}
+.mavbar-link {
   color: rgb(31, 32, 22);
   text-decoration: none;
   margin: 10px;
@@ -44,17 +48,22 @@
   .minilogo {
     font-size: 9px;
   }
+  .navdi {
+    display: inline-flex;
+  }
   .logo {
     font-size: 13px;
-    margin-left: -15px;
+    margin-left: -10px;
   }
+
   .logoiv {
-    margin-top: 5px;
+    margin-top: 2px;
   }
   .mavbar {
-    width: 110px;
+    width: 100px;
     height: 25px;
     margin-top: 15px;
+    margin-left: -4px;
   }
   .mavbar a {
     font-size: 13px;

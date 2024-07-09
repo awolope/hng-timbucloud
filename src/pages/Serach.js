@@ -1,7 +1,6 @@
 import React from "react";
 import "./search.css";
 import { FaInfinity } from "react-icons/fa";
-import { FaShoppingCart } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 const SearchBar = () => {
   const handleSubmit = (event) => {
@@ -19,10 +18,6 @@ const SearchBar = () => {
         <button type="submit" className="simple-search-btn sm">
           <FaSearch />
         </button>
-        <FaShoppingCart
-          style={{ fontSize: "17px", color: "red" }}
-          className="cart sm"
-        />
       </form>
     </div>
   );

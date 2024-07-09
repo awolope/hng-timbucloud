@@ -1,0 +1,35 @@
+body {
+  background-color: #f9f6f4;
+}
+.shopimage1 {
+  width: 1440px;
+  height: 436px;
+}
+.shoph1 {
+  text-align: center;
+  margin: 30px;
+
+  font-family: Nunito Sans;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 65.47px;
+  letter-spacing: 0.002em;
+}
+.imgrow {
+  display: flex;
+  justify-content: space-between;
+}
+.promo {
+  background-color: white;
+  color: red;
+  text-align: center;
+  font-weight: 400;
+  font-family: Nunito-sans;
+  width: 60px;
+  border-radius: 10px;
+}
+.shimg1 {
+  background-color: rgba(242, 236, 233, 1);
+  padding: 10px;
+  margin: 10px;
+}

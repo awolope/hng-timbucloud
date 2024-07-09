@@ -1,5 +1,6 @@
 import React from "react";
 import "./navbar.css";
+import { FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import SearchBar from "./Serach";
 export default function Navbar(params) {
@@ -10,15 +11,19 @@ export default function Navbar(params) {
         <p className="minilogo sm">TM</p>
       </div>
       <div className="mavbar sm">
-        <Link to="/TimbuClouds" className="mavbar-link">
+        <Link to="/" className="mavbar-link">
           Home
         </Link>
-        <Link to="/Shop" className="mavabar-link">
+        <Link to="/Shop" className="mavbar-link">
           Shop
         </Link>
       </div>
       <div className="search sm">
         <SearchBar />
+        <FaShoppingCart
+          style={{ fontSize: "20px", color: "red" }}
+          className="cart sm"
+        />
       </div>
     </div>
   );

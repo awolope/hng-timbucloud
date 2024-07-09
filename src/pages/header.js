@@ -7,6 +7,7 @@ import { FaClock } from "react-icons/fa";
 import { FaShoppingBag } from "react-icons/fa";
 import { FaInfinity } from "react-icons/fa";
 import Navbar from "./navbar";
+import { Link } from "react-router-dom";
 export default function Head(params) {
   return (
     <div className="head container sm">
@@ -19,9 +20,9 @@ export default function Head(params) {
         </h2>
       </div>
       <div className="shopdiv sm">
-        <a href="/" className="shoplink sm">
-          Shop Now
-        </a>
+        <Link to="/Shop" className="shoplink">
+          Shop
+        </Link>
         <a href="/" className="arrowUp">
           <FaArrowUp />
         </a>
