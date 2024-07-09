@@ -12,8 +12,9 @@
 }
 .clothesdiv {
   display: flex;
-  margin: 170px;
-  justify-content: space-between;
+  margin: 150px;
+  margin-top: -30px;
+  justify-content: space-around;
 }
 .focus {
   color: red;
@@ -37,7 +38,7 @@
 .mindiv2 {
   display: flex;
   justify-content: space-between;
-  margin: 10px;
+  margin: 50px;
 }
 .minp1 {
   font-family: Nunito Sans;
@@ -67,10 +68,31 @@
 .img-fluid3 {
   width: 230px;
   border-radius: 10px;
-  padding: 10px;
+
   height: 180px;
 }
+.absolute {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -50px;
+  margin-left: 20px;
+  position: absolute;
+}
 
+.seemore {
+  text-decoration: none;
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  margin-bottom: 1px;
+  margin-top: 5px;
+  margin-left: 90px;
+  text-align: center;
+  height: 34px;
+  width: 80px;
+  font-size: 15px;
+}
 .img {
   width: 450px;
   height: 400px;
@@ -87,6 +109,25 @@
   margin: 10px;
   margin-top: 90px;
 }
+.label {
+  font-family: Nunito Sans;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 38.19px;
+  letter-spacing: 0.001em;
+  text-align: left;
+  color: white;
+}
+.mainfp {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  width: 450px;
+  font-weight: 400;
+  line-height: 27.28px;
+  text-align: left;
+  margin-top: -20px;
+  margin-left: 8px;
+}
 @media (max-width: 900px) {
   .minp1 {
     font-size: 13px;
@@ -95,6 +136,9 @@
   }
   .imagediv3 {
     margin-top: 60px;
+  }
+  .mindiv2 {
+    margin: -50px;
   }
   .minh2 {
     font-size: 20px;
@@ -128,6 +172,33 @@
     margin: 0px;
   }
   .clothesdiv {
-    margin: -0px;
+    margin: -10px;
+    margin-top: 60px;
+  }
+  .img-fluid1 {
+    width: 100px;
+    height: 100px;
+  }
+  .label {
+    margin-left: -10px;
+    font-size: 15px;
+  }
+  .absolute {
+    margin-top: -35px;
+  }
+  .seemore {
+    margin-left: 20px;
+    font-size: 7px;
+    width: 40px;
+    height: 14px;
+    margin-top: 13px;
+  }
+  .img-fluid3 {
+    width: 100px;
+    height: 100px;
+  }
+  .img-fluid2 {
+    width: 100px;
+    height: 100px;
   }
 }

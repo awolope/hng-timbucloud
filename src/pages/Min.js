@@ -1,4 +1,5 @@
 import React from "react";
+import Search from "./searchbar";
 import "./Main.css";
 import "../man.png";
 import "../woman.png";
@@ -47,13 +48,45 @@ export default function Main(params) {
       <div className="clothesdiv sm">
         <div className="shirt sm">
           <img src="./shirt.png" className="img-fluid1" alt=""></img>
+          <div className="absolute">
+            <p className="label"> shirt</p>
+            <a href="/" className="seemore">
+              {" "}
+              see more
+            </a>
+          </div>
         </div>
         <div className="suit sm">
           <img src="./suit.png" className="img-fluid2" alt=""></img>
+          <div className="absolute">
+            <p className="label"> suit</p>
+            <a href="/" className="seemore">
+              {" "}
+              see more
+            </a>
+          </div>
         </div>
         <div className="clothes sm">
           <img src="./clothes.png" className="img-fluid3" alt=""></img>
+          <div className="absolute">
+            <p className="label"> short</p>
+            <a href="/" className="seemore">
+              {" "}
+              see more
+            </a>
+          </div>
         </div>
+      </div>
+      <div className="mainfooter">
+        <div className="logoiv">
+          <p className="logo"> TimberClouds</p>
+          <p className="minilogo"> TM</p>
+        </div>
+        <p className="mainfp">
+          Sign up for our newsletter to receive updates on upcoming products and
+          exclusive discounts on all items
+        </p>
+        <Search />
       </div>
     </div>
   );
