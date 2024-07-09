@@ -5,7 +5,7 @@ import Head from "./header";
 import Main from "./Min";
 export default function TimbuCloud() {
   return (
-    <div className="container-fluid-md">
+    <div className="">
       <Head />
       <Main />
     </div>

@@ -9,7 +9,7 @@ import { FaInfinity } from "react-icons/fa";
 import SearchBar from "./Serach";
 export default function Head(params) {
   return (
-    <div className="head container-fluid sm">
+    <div className="head container sm">
       <div className="navdiv sm">
         <div className="logoiv sm">
           <p className="logo sm"> TimberClouds</p>

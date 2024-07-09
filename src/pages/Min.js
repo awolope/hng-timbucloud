@@ -14,7 +14,7 @@ export default function Main(params) {
             <span className="focus sm">Fresh Looks For</span>
             <br /> The Modern Classic
           </h2>
-          <p>
+          <p className="minp1">
             Discover the perfect fusion of classic charm and modern trends. Our
             new collection offers fresh looks that embody sophistication and
             style, ideal for the discerning fashionista who values both

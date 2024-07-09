@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import TimbuCloud from "./pages/TimbuClouds";
 function App() {
   return (
-    <div className="App  sm">
+    <div className="App container-fluid sm">
       <Router>
         <Routes>
           <Route path="/" element={<TimbuCloud />} />

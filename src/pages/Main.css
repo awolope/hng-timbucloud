@@ -15,7 +15,7 @@
 }
 .mindiv1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 50px;
 }
 .minh2 {
@@ -26,8 +26,27 @@
   letter-spacing: 0.001em;
   text-align: left;
 }
+.minp1 {
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-weight: 400;
+  opacity: 0.8;
+  line-height: 38.74px;
+  letter-spacing: 0.001em;
+  text-align: left;
+}
 @media (max-width: 900px) {
   .maindiv {
     font-size: 10px;
+    margin: -20px;
+  }
+  .minp1 {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .minh2 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
   }
 }
