@@ -2,6 +2,9 @@ import React from "react";
 import "./Main.css";
 import "../man.png";
 import "../woman.png";
+import "../shirt.png";
+import "../suit.png";
+import "../clothes.png";
 export default function Main(params) {
   return (
     <div className="maindiv container-fluid sm">
@@ -39,6 +42,17 @@ export default function Main(params) {
             those who dare to be different, our pieces blend contemporary trends
             with unique designs.
           </p>
+        </div>
+      </div>
+      <div className="clothesdiv sm">
+        <div className="shirt sm">
+          <img src="./shirt.png" className="img-fluid1" alt=""></img>
+        </div>
+        <div className="suit sm">
+          <img src="./suit.png" className="img-fluid2" alt=""></img>
+        </div>
+        <div className="clothes sm">
+          <img src="./clothes.png" className="img-fluid3" alt=""></img>
         </div>
       </div>
     </div>

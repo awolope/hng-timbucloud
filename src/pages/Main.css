@@ -10,7 +10,11 @@
   text-align: center;
   color: rgba(34, 38, 1, 1);
 }
-
+.clothesdiv {
+  display: flex;
+  margin: 170px;
+  justify-content: space-between;
+}
 .focus {
   color: red;
 }
@@ -33,6 +37,7 @@
 .mindiv2 {
   display: flex;
   justify-content: space-between;
+  margin: 10px;
 }
 .minp1 {
   font-family: Nunito Sans;
@@ -48,6 +53,24 @@
   margin: 30px;
   margin-top: 150px;
 }
+.img-fluid1 {
+  width: 230px;
+  border-radius: 10px;
+  height: 180px;
+}
+.img-fluid2 {
+  width: 230px;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.img-fluid3 {
+  width: 230px;
+  border-radius: 10px;
+  padding: 10px;
+  height: 180px;
+}
+
 .img {
   width: 450px;
   height: 400px;
