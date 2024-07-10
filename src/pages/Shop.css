@@ -8,7 +8,7 @@ body {
 .shoph1 {
   text-align: center;
   margin: 30px;
-
+  color: red;
   font-family: Nunito Sans;
   font-size: 40px;
   font-weight: 600;
@@ -32,4 +32,35 @@ body {
   background-color: rgba(242, 236, 233, 1);
   padding: 10px;
   margin: 10px;
+}
+.addtocartbtn {
+  border: none;
+  position: absolute;
+  margin-left: 270px;
+  margin-top: -40px;
+}
+.addtocartbtne {
+  border: none;
+  position: absolute;
+  margin-left: 220px;
+  margin-top: -30px;
+}
+.mainfooter3 {
+  display: flex;
+  margin-left: 1130px;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.italianleather {
+  width: 290px;
+}
+.silicanleather {
+  width: 290px;
+}
+.beringaboot {
+  width: 290px;
+}
+.bronze {
+  width: 290px;
 }
