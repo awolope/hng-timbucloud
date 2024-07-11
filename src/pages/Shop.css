@@ -26,7 +26,9 @@ body {
   font-weight: 400;
   font-family: Nunito-sans;
   width: 60px;
+  padding: 2px;
   border-radius: 10px;
+  position: absolute;
 }
 .shimg1 {
   background-color: rgba(242, 236, 233, 1);
@@ -66,6 +68,7 @@ body {
 .initialprice {
   font-family: Inter;
   font-size: 16px;
+
   font-weight: 400;
   line-height: 19.36px;
   text-align: left;
@@ -95,19 +98,23 @@ body {
     text-decoration: line-through;
     color: red;
   }
+  .imgrow {
+    margin-left: 2px;
+    text-align: center;
+    margin-right: -15px;
+  }
   .newprice {
     font-family: Inter;
     font-size: 7px;
     font-weight: 400;
     line-height: 9.36px;
     text-align: left;
-
     opacity: 0.6;
-    margin: 5px;
+    margin: 0px;
   }
   .shoeimages {
-    width: 60px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
   }
   .shoph1 {
     text-align: center;
@@ -126,12 +133,13 @@ body {
     font-weight: 400;
     font-family: Nunito-sans;
     width: 40px;
+    padding: 0px;
     font-size: 10px;
     border-radius: 5px;
   }
   .shoeimagesit {
-    width: 60px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
   }
   .price {
     font-size: 10px;
@@ -161,6 +169,6 @@ body {
     background-color: rgba(242, 236, 233, 1);
     padding: 0px;
     margin: 0px;
-    border-radius: 10px;
+    border-radius: 5px;
   }
 }

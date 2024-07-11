@@ -6,10 +6,12 @@
   position: absolute;
   margin-left: 125px;
   margin-top: -14px;
+  color: black;
 }
-@media (max-width: 900px) {
+@media (max-width: 750px) {
   .addtocartbtn {
-    margin-left: 20px;
-    margin-top: -12px;
+    margin-left: 25px;
+    margin-top: -7px;
+    font-size: 7px;
   }
 }
