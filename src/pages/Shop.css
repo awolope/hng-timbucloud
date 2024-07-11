@@ -4,7 +4,6 @@ body {
 .shopimage1 {
   width: 1300px;
   height: 436px;
-  margin-left: 10px;
 }
 .shoph1 {
   text-align: center;
@@ -87,15 +86,57 @@ body {
   width: 290px;
 }
 @media (max-width: 900px) {
-  .shoeimages {
-    width: 90px;
-    height: 60px;
-    margin: -30px;
+  .initialprice {
+    font-family: Inter;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 10.36px;
+    text-align: left;
+    text-decoration: line-through;
+    color: red;
   }
+  .newprice {
+    font-family: Inter;
+    font-size: 7px;
+    font-weight: 400;
+    line-height: 9.36px;
+    text-align: left;
 
+    opacity: 0.6;
+    margin: 5px;
+  }
+  .shoeimages {
+    width: 60px;
+    height: 70px;
+  }
+  .shoph1 {
+    text-align: center;
+    margin: 10px;
+    color: red;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35.47px;
+    letter-spacing: 0.002em;
+  }
+  .promo {
+    background-color: white;
+    color: red;
+    text-align: center;
+    font-weight: 400;
+    font-family: Nunito-sans;
+    width: 40px;
+    font-size: 10px;
+    border-radius: 5px;
+  }
   .shoeimagesit {
-    width: 90px;
-    height: 60px;
+    width: 60px;
+    height: 70px;
+  }
+  .price {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 22.74px;
   }
   .shopimage1 {
     width: 370px;
@@ -103,9 +144,23 @@ body {
     margin-left: 0px;
   }
   .mainfooter3 {
-    margin-left: -500px;
+    margin-left: 150px;
     margin-top: 20px;
-
     margin-bottom: 20px;
+  }
+  .price {
+    font-family: Nunito Sans;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12.74px;
+    letter-spacing: 0.001em;
+    text-align: left;
+    margin-left: 2px;
+  }
+  .shimg1 {
+    background-color: rgba(242, 236, 233, 1);
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
   }
 }

@@ -34,7 +34,7 @@ const Shop = () => {
     setCartCount(cartCount + 1);
   };
   return (
-    <div className="container sm">
+    <div className="container-fluid sm">
       <span>
         <Navbar /> <CartCount count={cartCount} />
       </span>
