@@ -1,7 +1,7 @@
 import React from "react";
 import "./head.css";
 import "../background.png";
-import { FaShoppingCart } from "react-icons/fa";
+
 import { FaArrowUp } from "react-icons/fa";
 import { FaClock } from "react-icons/fa";
 import { FaShoppingBag } from "react-icons/fa";

@@ -1,7 +1,6 @@
 import React from "react";
 import "./search.css";
-import { FaInfinity } from "react-icons/fa";
-import { FaShoppingCart } from "react-icons/fa";
+
 import { FaSearch } from "react-icons/fa";
 const SearchBar = () => {
   const handleSubmit = (event) => {
