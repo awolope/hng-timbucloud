@@ -1,0 +1,9 @@
+.addtocartbtn:focus {
+  outline: none;
+}
+.addtocartbtn {
+  border: none;
+  position: absolute;
+  margin-left: 125px;
+  margin-top: -14px;
+}

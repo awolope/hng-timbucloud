@@ -2,8 +2,9 @@ body {
   background-color: #f9f6f4;
 }
 .shopimage1 {
-  width: 1440px;
+  width: 1300px;
   height: 436px;
+  margin-left: 10px;
 }
 .shoph1 {
   text-align: center;
@@ -32,13 +33,9 @@ body {
   background-color: rgba(242, 236, 233, 1);
   padding: 10px;
   margin: 10px;
+  border-radius: 30px;
 }
-.addtocartbtn {
-  border: none;
-  position: absolute;
-  margin-left: 270px;
-  margin-top: -40px;
-}
+
 .addtocartbtne {
   border: none;
   position: absolute;
@@ -47,20 +44,19 @@ body {
 }
 .mainfooter3 {
   display: flex;
-  margin-left: 1130px;
+  margin-left: 970px;
   justify-content: space-between;
-  margin-top: 60px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  line-height: 30px;
+  margin-bottom: 50px;
+  text-align: left;
 }
-.italianleather {
+.shoeimages {
   width: 290px;
 }
-.silicanleather {
+
+.shoeimagesit {
   width: 290px;
 }
-.beringaboot {
-  width: 290px;
-}
-.bronze {
-  width: 290px;
+@media (max-width: 900px) {
 }

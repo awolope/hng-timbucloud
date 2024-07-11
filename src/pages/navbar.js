@@ -1,9 +1,11 @@
 import React from "react";
 import "./navbar.css";
+
 import { FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import SearchBar from "./Serach";
-export default function Navbar(params) {
+
+export default function Navbar() {
   return (
     <div className="navdi sm">
       <div className="logoiv sm">
@@ -21,7 +23,7 @@ export default function Navbar(params) {
       <div className="search sm">
         <SearchBar />
         <FaShoppingCart
-          style={{ fontSize: "20px", color: "red" }}
+          style={{ fontSize: "24px", color: "red" }}
           className="cart sm"
         />
       </div>
