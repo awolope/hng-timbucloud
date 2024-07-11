@@ -2,6 +2,12 @@
   color: red;
   font-weight: 600;
   font-size: 9px;
-  margin-left: 1295px;
+  margin-left: 1272px;
   margin-top: -50px;
+}
+@media (max-width: 900px) {
+  .cartcount {
+    margin-left: 364px;
+    margin-top: -43px;
+  }
 }

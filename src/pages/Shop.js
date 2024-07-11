@@ -34,39 +34,40 @@ const Shop = () => {
     setCartCount(cartCount + 1);
   };
   return (
-    <div>
+    <div className="container sm">
       <span>
         <Navbar /> <CartCount count={cartCount} />
       </span>
-      <h1 className="shoph1"> Our Collections</h1>
+      <h1 className="shoph1 sm"> Our Collections</h1>
       <img src="./shopwoman.png" alt="" className="shopimage1"></img>
       <hr />
-      <div className="imgrow">
-        <div className="imgro">
-          <div className="shimg1">
-            <p className="promo">20% Off</p>
+      <div className="imgrow sm">
+        <div className="imgro sm">
+          <div className="shimg1 sm">
+            <p className="promo sm">20% Off</p>
             <img
               src="./Italian Leather.png"
-              className="shoeimagesitmt-5"
+              className="shoeimagesit"
               alt="Italian Leather"
             ></img>
-            <div className="addtocartbtn">
+            <div className="addtocartbtn sm">
               <AddToCartButton onClick={addToCart} />
             </div>
           </div>
 
-          <p className="">
+          <p className="price">
             Italian Leather
             <br />
-            <span>₦80,000</span>
+            <span className="initialprice">₦80,000 </span>
+            <span className="newprice"> ₦64,000</span>
           </p>
         </div>
         <div className="imgro">
           <div className="shimg1">
-            <p className="promo">20% Off</p>
+            <p className="promo">5% Off</p>
             <img
               src="./Beringa boot.png"
-              className="shoeimages"
+              className="shoeimages mb-1"
               alt="Beringa boot"
             ></img>
 
@@ -74,30 +75,32 @@ const Shop = () => {
               <AddToCartButton onClick={addToCart} />
             </div>
           </div>
-          <br />
-          <p>
-            Italian Leather
+
+          <p className="price">
+            Beringa boot
             <br />
-            <span>₦80,000</span>
+            <span className="initialprice">₦60,000 </span>
+            <span className="newprice"> ₦57,000</span>
           </p>
         </div>
         <div className="imgro">
           <div className="shimg1">
-            <p className="promo">20% Off</p>
+            <p className="promo">10% Off</p>
             <img
               src="./silican leather.png"
-              className="shoeimages mt-3"
+              className="shoeimages "
               alt="silicanLeather"
             ></img>
             <div className="addtocartbtn">
               <AddToCartButton onClick={addToCart} />
             </div>
           </div>
-          <br />
-          <p>
-            Italian Leather
+
+          <p className="price">
+            Silican Leather
             <br />
-            <span>₦80,000</span>
+            <span className="initialprice">₦70,000 </span>
+            <span className="newprice">₦63,000 </span>
           </p>
         </div>
 
@@ -113,6 +116,12 @@ const Shop = () => {
               <AddToCartButton onClick={addToCart} />
             </div>
           </div>
+          <p className="price">
+            Bronze shoe
+            <br />
+            <span className="initialprice">₦90,000 </span>
+            <span className="newprice"> ₦70,000 </span>
+          </p>
         </div>
       </div>
       <div className="imgrow">
@@ -123,11 +132,11 @@ const Shop = () => {
               <AddToCartButton onClick={addToCart} />
             </div>
           </div>
-          <br />
-          <p>
-            Italian Leather
+
+          <p className="price">
+            Shikina
             <br />
-            <span>₦80,000</span>
+            <span className="newprice">₦50,000</span>
           </p>
         </div>
         <div className="imgro">
@@ -141,10 +150,10 @@ const Shop = () => {
               <AddToCartButton onClick={addToCart} />
             </div>
           </div>
-          <p>
-            Italian Leather
+          <p className="price">
+            Cover shoe
             <br />
-            <span>₦80,000</span>
+            <span className="newprice">₦64,000</span>
           </p>
         </div>
         <div className="imgro">
@@ -158,11 +167,11 @@ const Shop = () => {
               <AddToCartButton onClick={addToCart} />
             </div>
           </div>
-          <br />
-          <p>
-            Italian Leather
+
+          <p className="price">
+            Pink Hose
             <br />
-            <span>₦80,000</span>
+            <span className="newprice">₦64,000</span>
           </p>
         </div>
         <div className="imgrow">
@@ -177,6 +186,11 @@ const Shop = () => {
                 <AddToCartButton onClick={addToCart} />
               </div>
             </div>
+            <p className="price">
+              Abibas boot
+              <br />
+              <span className="newprice">₦64,000</span>
+            </p>
           </div>
         </div>
       </div>
@@ -192,41 +206,60 @@ const Shop = () => {
               <AddToCartButton onClick={addToCart} />
             </div>
           </div>
-          <br />
-          <p>
-            Italian Leather
+
+          <p className="price">
+            Mike Dunk
             <br />
-            <span>₦80,000</span>
+            <span className="newprice">₦64,000</span>
+          </p>
+        </div>
+        <div className="imgro">
+          <div className="shimg1">
+            <img src="./Beringa.png" className="shoeimages" alt="Beringa"></img>
+            <div className="addtocartbtn">
+              <AddToCartButton onClick={addToCart} />
+            </div>
+          </div>
+          <p className="price">
+            Beringa
+            <br />
+            <span className="newprice">₦64,000</span>
+          </p>
+        </div>
+        <div className="imgro">
+          <div className="shimg1">
+            <img
+              src="./Black benz.png"
+              className="shoeimages"
+              alt="Black benz"
+            ></img>
+            <div className="addtocartbtn">
+              <AddToCartButton onClick={addToCart} />
+            </div>
+          </div>
+          <p className="price">
+            Black benz
+            <br />
+            <span className="newprice">₦64,000</span>
           </p>
         </div>
 
-        <div className="shimg1">
-          <img src="./Beringa.png" className="shoeimages" alt="Beringa"></img>
-          <div className="addtocartbtn">
-            <AddToCartButton onClick={addToCart} />
+        <div className="imgro">
+          <div className="shimg1">
+            <img
+              src="./Brown Italian Leather.png"
+              className="shoeimages"
+              alt="Italian Leather"
+            ></img>
+            <div className="addtocartbtn">
+              <AddToCartButton onClick={addToCart} />
+            </div>
           </div>
-        </div>
-
-        <div className="shimg1">
-          <img
-            src="./Black benz.png"
-            className="shoeimages"
-            alt="Black benz"
-          ></img>
-          <div className="addtocartbtn">
-            <AddToCartButton onClick={addToCart} />
-          </div>
-        </div>
-
-        <div className="shimg1">
-          <img
-            src="./Brown Italian Leather.png"
-            className="shoeimages"
-            alt="Italian Leather"
-          ></img>
-          <div className="addtocartbtn">
-            <AddToCartButton onClick={addToCart} />
-          </div>
+          <p className="price">
+            Italian Leather
+            <br />
+            <span className="newprice">₦64,000</span>
+          </p>
         </div>
       </div>
       <div className="imgrow">
@@ -241,27 +274,58 @@ const Shop = () => {
               <AddToCartButton onClick={addToCart} />
             </div>
           </div>
+          <p className="price">
+            Poesidon
+            <br />
+            <span className="newprice"> ₦64,000</span>
+          </p>
         </div>
-
-        <div className="shimg1">
-          <img src="./Capenter.png" className="shoeimages" alt="Capenter"></img>
-          <div className="addtocartbtn">
-            <AddToCartButton onClick={addToCart} />
+        <div className="imgro">
+          <div className="shimg1">
+            <img
+              src="./Capenter.png"
+              className="shoeimages"
+              alt="Capenter"
+            ></img>
+            <div className="addtocartbtn">
+              <AddToCartButton onClick={addToCart} />
+            </div>
           </div>
+          <p className="price">
+            Carpenter
+            <br />
+            <span className="newprice">₦64,000</span>
+          </p>
         </div>
-
-        <div className="shimg1">
-          <img src="./Ningolan.png" className="shoeimages" alt="Ningolan"></img>
-          <div className="addtocartbtn">
-            <AddToCartButton onClick={addToCart} />
+        <div className="imgro">
+          <div className="shimg1">
+            <img
+              src="./Ningolan.png"
+              className="shoeimages"
+              alt="Ningolan"
+            ></img>
+            <div className="addtocartbtn">
+              <AddToCartButton onClick={addToCart} />
+            </div>
           </div>
+          <p className="price">
+            Ningolan
+            <br />
+            <span className="newprice">₦64,000</span>
+          </p>
         </div>
-
-        <div className="shimg1">
-          <img src="./Dunk.png" className="shoeimages" alt="Dunk"></img>
-          <div className="addtocartbtn">
-            <AddToCartButton onClick={addToCart} />
+        <div className="imgro">
+          <div className="shimg1">
+            <img src="./Dunk.png" className="shoeimages" alt="Dunk"></img>
+            <div className="addtocartbtn">
+              <AddToCartButton onClick={addToCart} />
+            </div>
           </div>
+          <p className="price">
+            Dunk
+            <br />
+            <span className="newprice">₦64,000</span>
+          </p>
         </div>
       </div>
       <div className="imgrow">
@@ -272,29 +336,52 @@ const Shop = () => {
               <AddToCartButton onClick={addToCart} />
             </div>
           </div>
+          <p className="price">
+            Canvas
+            <br />
+            <span className="newprice">₦64,000</span>
+          </p>
         </div>
-
-        <div className="shimg1">
-          <img src="./Teringo.png" className="shoeimages" alt="Teringo"></img>
-          <div className="addtocartbtn">
-            <AddToCartButton onClick={addToCart} />
-          </div>
-        </div>
-
-        <div className="shimg1">
-          <img src="./Dragon.png" className="shoeimages" alt="Dragon"></img>
-          <div className="addtocartbtn">
-            <AddToCartButton onClick={addToCart} />
-          </div>
-        </div>
-
-        <div className="shimg1">
-          <img src="./Silicon.png" className="shoeimages" alt="Silicon"></img>
-          <div>
+        <div className="imgro">
+          <div className="shimg1">
+            <img src="./Teringo.png" className="shoeimages" alt="Teringo"></img>
             <div className="addtocartbtn">
               <AddToCartButton onClick={addToCart} />
             </div>
           </div>
+          <p className="price">
+            Teringo
+            <br />
+            <span className="newprice">₦64,000</span>
+          </p>
+        </div>
+        <div className="imgro">
+          <div className="shimg1">
+            <img src="./Dragon.png" className="shoeimages" alt="Dragon"></img>
+            <div className="addtocartbtn">
+              <AddToCartButton onClick={addToCart} />
+            </div>
+          </div>
+          <p className="price">
+            Dragon
+            <br />
+            <span className="newprice">₦64,000</span>
+          </p>
+        </div>
+        <div className="imgro">
+          <div className="shimg1">
+            <img src="./Silicon.png" className="shoeimages" alt="Silicon"></img>
+            <div>
+              <div className="addtocartbtn">
+                <AddToCartButton onClick={addToCart} />
+              </div>
+            </div>
+          </div>
+          <p className="price">
+            Silicon
+            <br />
+            <span className="newprice">₦64,000</span>
+          </p>
         </div>
       </div>
       <div className="mainfooter3">

@@ -7,3 +7,9 @@
   margin-left: 125px;
   margin-top: -14px;
 }
+@media (max-width: 900px) {
+  .addtocartbtn {
+    margin-left: 40px;
+    margin-top: -8px;
+  }
+}
